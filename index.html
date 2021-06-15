@@ -40,7 +40,8 @@
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="https://github.com/ahmadmhasann">GitHub</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="https://github.com/ahmadmhasann">GitHub</a>
+              </li>
               <li class="nav-item"><a class="nav-link smooth-scroll" href="cv.html">PDF</a></li>
             </ul>
           </div>
@@ -73,10 +74,9 @@
                       class="fa fa-github"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"
                     href="https://www.linkedin.com/in/ahmadmhasann" rel="tooltip" title="LinkedIn Account"><i
                       class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"
-                      href="mailto:ahmadmhasann@gmail.com" rel="tooltip" title="Send Email"><i
-                        class="fa fa-google"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"
-                        href="tel:+201024242768" rel="tooltip" title="Phone Call"><i
-                          class="fa fa-phone"></i></a></div>
+                    href="mailto:ahmadmhasann@gmail.com" rel="tooltip" title="Send Email"><i
+                      class="fa fa-google"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"
+                    href="tel:+201024242768" rel="tooltip" title="Phone Call"><i class="fa fa-phone"></i></a></div>
               </div>
             </div>
           </div>
@@ -142,7 +142,11 @@
                 <div class="card-body">
                   <div class="h5">Bachelor of Computer and Systems Engineering</div>
                   <p class="category">Faculty of Engineering, Fayoum University.</p>
-                  <p>Bachelor of Computer and Systems Engineering with overall grade (good)</p>
+                  <p>• Bachelor of Computer and Systems Engineering. <br>
+                    • Graduation Project: Sightful, an embedded device to help people with visual impairments to be more
+                    aware about surroundings.
+                    Technologies used: Embedded Linux (Raspberry Pi), AI and Machine Learning.
+                  </p>
                 </div>
               </div>
             </div>
@@ -177,9 +181,9 @@
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                  <div class="h5">C, C++</div>
-                  <div class="h5">Java, Kotlin, Python, Dart</div>
-                  <div class="h5">HTML, CSS, JavaScript</div>
+                  <div class="h5">• C, C++</div>
+                  <div class="h5">• Java, Kotlin, Python, Dart</div>
+                  <div class="h5">• HTML, CSS, JavaScript</div>
                 </div>
               </div>
             </div>
@@ -203,8 +207,12 @@
                   <p>NodeMCU Board (ESP8266).</p>
                   <div class="h5">• RTOS.</div>
                   <p>FreeRTOS and building simple Scheduler based on Time Triggered Embedded Systems.</p>
-                  <div class="h5">• Simulation and Practical hardware projects implementation.</div>
-                  <div class="h5">• AUTOSAR Layered Architecture</div>
+                  <div class="h5">• Embedded Linux.</div>
+                  <p>Working with Raspberry Pi.</p>
+                  <div class="h5">• AUTOSAR.</div>
+                  <p>AUTOSAR Layered Architecture and Device Drivers.</p>
+                  <div class="h5">• Problem Solving.</div>
+                  <p>Algorithms and Data Structures.</p>
                 </div>
               </div>
             </div>
@@ -213,7 +221,7 @@
             <div class="row">
               <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-education-header">
-                  <div class="h5">Applications</div>
+                  <div class="h5">Applications Development</div>
                 </div>
               </div>
               <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -235,9 +243,33 @@
               <div class="row">
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body cc-education-header">
+                    <div class="h5">OTA</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;" href="https://github.com/ahmadmhasann/ota-programmer"
+                        rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">OTA Programmer</div>
+                    <p>OTA Programmer for STM32 Micro-controller using NodeMCU Board to flash hex file on MCU using
+                      website wirelessly with the bootloader flashed in the STM32 Flash Memory. The user uploads a hex
+                      file using the website, then NodeMCU reads the file content from the internet and start sending
+                      it. On reset, STM waits for 5 seconds for received code and after receiving all code and flashing
+                      it in application area of the Flash Memory it starts to run the code. If it didn’t receive
+                      anything for 5 seconds, it will run the last flashed code in the application area.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
                     <div class="h5">Scheduler</div>
                     <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-                        style="background-color: black;" href="https://github.com/ahmadmhasann/os-scheduler"
+                        style="background-color: transparent;" href="https://github.com/ahmadmhasann/os-scheduler"
                         rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
                     </div>
                   </div>
@@ -245,7 +277,28 @@
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body">
                     <div class="h5">OS Scheduler </div>
-                    <p>OS Scheduler built to be used in STM32 Microcontroller.</p>
+                    <p>OS Scheduler to schedule one-shot or periodic tasks in C program for microcontrollers. The user
+                      configures the number of tasks then add each task with its first call time and period time.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <div class="h5">AUTOSAR</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;" href="https://github.com/ahmadmhasann/autosar-drivers"
+                        rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">AUTOSAR Drivers </div>
+                    <p>Implementation of AUTOSAR Port and DIO Drivers for TM4C Micro-controller and implementing its
+                      configuration tool to generate configuration files automatically.</p>
                   </div>
                 </div>
               </div>
@@ -256,7 +309,7 @@
                   <div class="card-body cc-education-header">
                     <div class="h5">MIPS Processor</div>
                     <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-                        style="background-color: black;" href="https://github.com/ahmadmhasann/mips-processor"
+                        style="background-color: transparent;" href="https://github.com/ahmadmhasann/mips-processor"
                         rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
                     </div>
                   </div>
@@ -264,7 +317,8 @@
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body">
                     <div class="h5">MIPS Single Cycle Processor</div>
-                    <p>Implementation of Single Cycle MIPS Processor in System Verilog.</p>
+                    <p>Implementation of Single Cycle MIPS Processor in System Verilog. The processor can execute
+                      assembly R-type and I-type instructions like (add, sub, sll, or, mult, div and more).</p>
                   </div>
                 </div>
               </div>
@@ -273,21 +327,20 @@
               <div class="row">
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body cc-education-header">
-                    <div class="h5">Morse Code</div>
+                    <div class="h5">Robot</div>
                     <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-                        style="background-color: black;" href="https://github.com/ahmadmhasann/morse-code" rel="tooltip"
-                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a></div>
+                        style="background-color: transparent;"
+                        href="https://github.com/ahmadmhasann/motion-detector-robot" rel="tooltip"
+                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body">
-                    <div class="h5">Morse Code Translator</div>
-                    <p>A translator based on (ATmega32, Touch Sensor) can receive the code from the user via the touch
-                      sensor. The device converts the entered code into text that is displayed on the screen.
-                      Conversely,
-                      the user can enter text using (4*3 Keypad), such as the old phone, and the device will translate
-                      it
-                      to Morse Code using LEDs and Buzzer.</p>
+                    <div class="h5">Mobile Controlled Robot</div>
+                    <p>Mobile controlled robot that can be controlled using mobile application. It can avoid obstacles
+                      using Ultrasonic Sensor. When the robot is not moving, a buzzer will beep when any movement is
+                      detected with PIR Sensor.</p>
                   </div>
                 </div>
               </div>
@@ -298,18 +351,108 @@
                   <div class="card-body cc-education-header">
                     <div class="h5">Multimeter</div>
                     <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-                        style="background-color: black;" href="https://github.com/ahmadmhasann/digital-multimeter"
-                        rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                        style="background-color: transparent; "
+                        href="https://github.com/ahmadmhasann/digital-multimeter" rel="tooltip"
+                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body">
                     <div class="h5">Digital Multimeter</div>
-                    <p>Auto range Digital Multimeter based on (ATmega32) which has Ohmmeter measures from 5 Ohms to 3
-                      Mega
-                      Ohms, DC Ammeter measures from 5 mA to 2 A, AC Ammeter measures from 5 mA to 50 A, DC Voltmeter
-                      measures from 5 mV to 55 V and AC Voltmeter measures from 5 V to 1000 V.</p>
+                    <p>Auto-range Digital Multimeter based on (ATmega32) which has Ohmmeter measures from 5 Ohms to 3
+                      Mega Ohms, DC Ammeter measures from 5 mA to 2 A, AC Ammeter measures from 5 mA to 50 A, DC
+                      Voltmeter measures from 5 mV to 55 V and AC Voltmeter measures from 5 V to 1000 V.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <div class="h5">Morse Code</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;" href="https://github.com/ahmadmhasann/morse-code"
+                        rel="tooltip" title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">Morse Code Translator</div>
+                    <p>A device based on (ATmega32, Touch Sensor) can receive a morse code from the user via the touch
+                      sensor. The device converts the entered code into text that is displayed on the LCD. Conversely,
+                      the user can enter text using (4*3 Keypad), such as the old phone, and the device will translate
+                      it to Morse Code using buzzer beeps.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <div class="h5">Water Heater</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;"
+                        href="https://github.com/ahmadmhasann/electric-water-heater" rel="tooltip"
+                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">Electric Water Heater</div>
+                    <p>Electric water heater based on (PIC, and PICGenios Board) built for Swift Act Company Internship.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <div class="h5">Calculator</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;"
+                        href="https://github.com/ahmadmhasann/hardware-calculator" rel="tooltip"
+                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">Hardware Calculator</div>
+                    <p>Hardware calculator based on (ATmega32) uses keypad and LCD to perform mathematical operations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body cc-education-header">
+                    <div class="h5">Safety Jacket</div>
+                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                        style="background-color: transparent;"
+                        href="https://github.com/safety-jacket" rel="tooltip"
+                        title="GitHub Repository"><i class="fa fa-github" style="color: white;"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                  <div class="card-body">
+                    <div class="h5">Safety Jacket for Baby</div>
+                    <p>Safety Jacket contains temperature, flame, smoke, IR and other sensors to send an SMS Message
+                      using GSM Module if anything unusual happens around the baby. The project is implemented with
+                      STM32 and Arduino Nano.
+                    </p>
                   </div>
                 </div>
               </div>
